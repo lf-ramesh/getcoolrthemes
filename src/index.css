@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.header-section {
+    width: calc(100% - 60px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    border-bottom: 1px solid #000;
+}
+
+.header-section .lft .logo-img {
+    width: 200px;
+}
+
+.header-section .rgt .hamburger-icon {
+    width: 30px;
+    height: auto;
+}
+
+.header-section .rgt ul li {
+    list-style: none;
+}
+
+.show-menu {
+    display: block;
+}
+
+.hide-menu {
+    display: none;
+}
+
+.menu-popup-bg {
+    position: fixed;
+    width: 90%;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    top: 0px;
+    z-index: 1;
+    padding: 0px 5%;
+}
+
+.flex-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-popup-bg .lft {
+    width: 70%;
+}
+
+.menu-popup-bg .rgt {
+    width: 30%;
+    text-align: left;
+}
+
+.menu-popup-bg .rgt h4 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+.menu-popup-bg .rgt p {
+    font-size: 14px;
+}
+
+.menu-popup-bg .lft .nav-menu {
+    font-size: 50px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-popup-bg .lft .nav-menu li {
+    padding: 10px 0px;
+}
+
+.menu-popup-bg .lft .nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.close-btn {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 30px;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+}
+
+.intro-bg {
+    padding: 0px 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    /*height: 100vh;*/
+}
+
+.intro-bg .title {
+    padding: 0px 0px 30px 0px;
+    font-size: 90px;
+    margin: 50px 0px;
+}
+
+.aboutus-bg {
+    width: 90%;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: row;
+    /* background: #333;
+    color: #fff;*/
+}
+
+.aboutus-bg .lft {
+    width: 90%;
+    text-align: left;
+}
+
+.aboutus-bg .lft h2 {
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: right;
+}
+
+.aboutus-bg .rgt {
+    width: 50%;
+}
+
+.aboutus-bg .lft p {
+    line-height: 25px;
+    text-align: justify;
+    padding-left: 60px;
+}
+
+.aboutus-img {
+    margin: 20px 0px;
+    border-radius: 8px;
+}
+
+.portfolio-bg {
+    width: 88%;
+    padding: 3% 6%;
+    display: flex;
+    flex-direction: column;
+    background: #1d1815;
+}
+
+.portfolio-bg .portfolio-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-bg .portfolio-title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 30px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.portfolio-bg .portfolio-view {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-bg .portfolio-view .portfolio-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.portfolio-bg .portfolio-view .portfolio-list .ls {
+    margin: 30px 30px 30px 30px;
+    /*padding: 30px 30px 30px 30px;*/
+    width: 33%;
+}
+
+.margin-top-md {
+    margin-top: 7%;
+}
+
+.portfolio-bg .portfolio-view .portfolio-list .ls img {
+    /* border: 1px solid #999;*/
+    border-radius: 16px;
+    /*-webkit-filter: grayscale(100%);    
+    filter: grayscale(100%);*/
+    transition: all ease-in;
+    width: 100%;
+}
+
+.portfolio-bg .portfolio-view .portfolio-list .ls img:hover {
+    /*-webkit-filter: grayscale(0%);    
+    filter: grayscale(0%);*/
+}
+
+.portfolio-description {
+    transition: all ease-in 0.3s;
+}
+
+.portfolio-bg .portfolio-view .portfolio-list .ls:hover {
+    transform: rotateX(10deg) rotateY(-20deg);
+}
+
+.portfolio-description a {
+    color: #333;
+    text-decoration: none;
+}
+
+.portfolio-description h4 {
+    font-size: 18px;
+    margin: 5px 0px 0px 0px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+    color: #f0f0f0;
+}
+
+.portfolio-description .sub-txt {
+    text-align: left;
+    color: #ccc;
+    margin: 10px 30px 10px 15px;
+}
+
+.portfolio-description .sub-txt-link {
+    text-align: left;
+    margin-top: 5px;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #999;
+    margin-left: 0px;
+}
+
+.portfolio-description .sub-txt-link a {
+    color: #fff;
+}
+
+.footer-bg {
+    width: 88%;
+    padding: 3% 6%;
+    display: flex;
+    flex-direction: column;
+    background: #1d1815;
+    color: #fff;
+    text-align: left;
+}
+
+.header-section .lft {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.pull-right {
+    float: right;
+}
