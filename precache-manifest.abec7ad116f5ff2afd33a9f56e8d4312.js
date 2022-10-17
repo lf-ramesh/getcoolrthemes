@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "0160a008c56786261bb4",
-    "url": "/getcoolthemes/static/css/main.7a785038.chunk.css"
+    "revision": "c7d0f6471e6cf4926a81",
+    "url": "/getcoolthemes/static/css/main.c1ea3174.chunk.css"
   },
   {
-    "revision": "0160a008c56786261bb4",
-    "url": "/getcoolthemes/static/js/main.0160a008.chunk.js"
+    "revision": "c7d0f6471e6cf4926a81",
+    "url": "/getcoolthemes/static/js/main.c7d0f647.chunk.js"
   },
   {
-    "revision": "f12bf432d1b1b25fb939",
-    "url": "/getcoolthemes/static/js/1.f12bf432.chunk.js"
+    "revision": "8f2f4211b0891106f089",
+    "url": "/getcoolthemes/static/js/1.8f2f4211.chunk.js"
   },
   {
-    "revision": "c9669c3178700a51b675",
-    "url": "/getcoolthemes/static/js/2.c9669c31.chunk.js"
+    "revision": "3f293573aacc81ef8123",
+    "url": "/getcoolthemes/static/js/2.3f293573.chunk.js"
   },
   {
-    "revision": "14e4afcecd48c95c6863",
-    "url": "/getcoolthemes/static/js/runtime~main.14e4afce.js"
+    "revision": "39098b45244671b92ead",
+    "url": "/getcoolthemes/static/js/runtime~main.39098b45.js"
   },
   {
     "revision": "6c027773a563cbd040364fa6b10fbc94",
@@ -48,15 +48,19 @@ self.__precacheManifest = [
     "url": "/getcoolthemes/static/media/ers-img.8da3a12e.jpg"
   },
   {
-    "revision": "da87e513417bb66fbb3a677386818f33",
-    "url": "/getcoolthemes/static/media/tymey-img.da87e513.jpg"
+    "revision": "6c1e32e78355c221d1fefa3e82da016f",
+    "url": "/getcoolthemes/static/media/tymey-img.6c1e32e7.jpg"
   },
   {
     "revision": "478f44eb2b1d5d5e43d241ef1ed177ef",
     "url": "/getcoolthemes/static/media/emcservices-img.478f44eb.jpg"
   },
   {
-    "revision": "7fc42b5111447497fd61abb017ec0383",
+    "revision": "dc4ef023c05b0e4c462fed8029c84c94",
+    "url": "/getcoolthemes/static/media/vasevi-img.dc4ef023.jpg"
+  },
+  {
+    "revision": "c94267e8ea0ecef59019c5c159b39a5d",
     "url": "/getcoolthemes/index.html"
   }
 ];
