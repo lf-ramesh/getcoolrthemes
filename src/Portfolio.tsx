@@ -9,6 +9,7 @@ import crrImg from "./images/crr-img.jpg";
 import ersImg from "./images/ers-img.jpg";
 import tymeyImg from "./images/tymey-img.jpg";
 import emcImg from "./images/emcservices-img.jpg";
+import vasImg from "./images/vasevi-img.jpg";
 import { Parallax } from 'react-scroll-parallax';
 interface IPost {
     rotateX : number ;
@@ -208,12 +209,18 @@ class Portfolio extends React.Component<any,any> {
                                     </a>
                                 </Parallax>    
                             </div>    
-                            <div className="ls portfolio-description">    
-                            </div>                       
-                            
+                            <div className="ls portfolio-description">  
+                            <Parallax speed={10}>    
+                                    <a href="http://34.251.82.89/projects/vasevi/" target="_blank">                    
+                                        <img src={vasImg} />                                   
+                                        <h4>Vasevi</h4>
+                                        {/* <p className="sub-txt">Supporting Backpack in their ambitious plan 
+                                            to breathe tech into the built world with a modular and scalable brand. </p> */}                                    
+                                        <p className="sub-txt-link">Website</p>
+                                    </a>
+                                </Parallax>                            
+                            </div>  
                         </div> 
-
-
 
                 </div>
 
