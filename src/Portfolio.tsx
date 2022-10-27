@@ -126,7 +126,7 @@ class Portfolio extends React.Component<any,any> {
                                 </Parallax>                            
                             </div>                            
                             <div className="ls portfolio-description" > 
-                                <Parallax speed={10}>        
+                                <Parallax speed={0}>        
                                 <a href="https://www.signstamper.com/" target="_blank">                      
                                     <img src={signstamperImg} />  
                                     <h4> Signstamper</h4>
@@ -137,7 +137,7 @@ class Portfolio extends React.Component<any,any> {
                                 </Parallax> 
                             </div>
                             <div className="ls portfolio-description" >       
-                                <Parallax speed={15}>     
+                                <Parallax speed={0}>     
                                 <a href="https://rvsaircon.com/" target="_blank">                   
                                     <img src={rvsImg} />                                   
                                     <h4> RVS Aircon Pvt Ltd</h4>
@@ -162,7 +162,7 @@ class Portfolio extends React.Component<any,any> {
                                  </Parallax>                             
                             </div>                      
                             <div className="ls portfolio-description" >       
-                                <Parallax speed={10}>        
+                                <Parallax speed={0}>        
                                 <a href="https://crr.iitm.ac.in/" target="_blank">                
                                     <img src={crrImg} />                                   
                                     <h4> Centre for Railway Research, IIT Madras</h4>
@@ -174,7 +174,7 @@ class Portfolio extends React.Component<any,any> {
                                 </Parallax>    
                             </div>                            
                             <div className="ls portfolio-description" >      
-                                 <Parallax speed={15}>        
+                                 <Parallax speed={0}>        
                                  <a href="https://lf-ramesh.github.io/saamosa.github.io/source/index.html" target="_blank">                        
                                      <img src={ersImg} />  
                                      <h4> Equipment Reservation System</h4>
@@ -191,7 +191,7 @@ class Portfolio extends React.Component<any,any> {
                                  <Parallax speed={0}>           
                                  <a href="https://lf-ramesh.github.io/emc.github.io/" target="_blank">                     
                                      <img src={emcImg} />  
-                                     <h4> EMC Services</h4>
+                                     <h4> Facility Maintenance </h4>
                                     {/* <p className="sub-txt">Supporting Backpack in their ambitious plan 
                                     to breathe tech into the built world with a modular and scalable brand. </p> */}
                                     <p className="sub-txt-link">Website</p>   
@@ -199,7 +199,7 @@ class Portfolio extends React.Component<any,any> {
                                  </Parallax>                             
                             </div>                      
                             <div className="ls portfolio-description" >       
-                                <Parallax speed={10}>    
+                                <Parallax speed={0}>    
                                     <a href="https://tymey.com/webroot/home.php" target="_blank">                    
                                         <img src={tymeyImg} />                                   
                                         <h4>Tymey</h4>
@@ -210,7 +210,7 @@ class Portfolio extends React.Component<any,any> {
                                 </Parallax>    
                             </div>    
                             <div className="ls portfolio-description">  
-                            <Parallax speed={10}>    
+                            <Parallax speed={0}>    
                                     <a href="http://34.251.82.89/projects/vasevi/" target="_blank">                    
                                         <img src={vasImg} />                                   
                                         <h4>Vasevi</h4>
