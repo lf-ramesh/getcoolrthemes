@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c7d0f6471e6cf4926a81",
+    "revision": "705c79962a2673e474cf",
     "url": "/getcoolthemes/static/css/main.c1ea3174.chunk.css"
   },
   {
-    "revision": "c7d0f6471e6cf4926a81",
-    "url": "/getcoolthemes/static/js/main.c7d0f647.chunk.js"
+    "revision": "705c79962a2673e474cf",
+    "url": "/getcoolthemes/static/js/main.705c7996.chunk.js"
   },
   {
     "revision": "8f2f4211b0891106f089",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/getcoolthemes/static/media/vasevi-img.dc4ef023.jpg"
   },
   {
-    "revision": "c94267e8ea0ecef59019c5c159b39a5d",
+    "revision": "c0aaf362ca223a9713c194dfb3f966b5",
     "url": "/getcoolthemes/index.html"
   }
 ];

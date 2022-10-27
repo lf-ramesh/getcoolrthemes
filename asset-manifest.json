@@ -1,7 +1,7 @@
 {
   "main.css": "/getcoolthemes/static/css/main.c1ea3174.chunk.css",
-  "main.js": "/getcoolthemes/static/js/main.c7d0f647.chunk.js",
-  "main.js.map": "/getcoolthemes/static/js/main.c7d0f647.chunk.js.map",
+  "main.js": "/getcoolthemes/static/js/main.705c7996.chunk.js",
+  "main.js.map": "/getcoolthemes/static/js/main.705c7996.chunk.js.map",
   "static/js/1.8f2f4211.chunk.js": "/getcoolthemes/static/js/1.8f2f4211.chunk.js",
   "static/js/1.8f2f4211.chunk.js.map": "/getcoolthemes/static/js/1.8f2f4211.chunk.js.map",
   "static/js/2.3f293573.chunk.js": "/getcoolthemes/static/js/2.3f293573.chunk.js",
@@ -20,6 +20,6 @@
   "static/media/vasevi-img.jpg": "/getcoolthemes/static/media/vasevi-img.dc4ef023.jpg",
   "static/css/main.c1ea3174.chunk.css.map": "/getcoolthemes/static/css/main.c1ea3174.chunk.css.map",
   "index.html": "/getcoolthemes/index.html",
-  "precache-manifest.abec7ad116f5ff2afd33a9f56e8d4312.js": "/getcoolthemes/precache-manifest.abec7ad116f5ff2afd33a9f56e8d4312.js",
+  "precache-manifest.151c3b6764e22f93721b7a137aeef008.js": "/getcoolthemes/precache-manifest.151c3b6764e22f93721b7a137aeef008.js",
   "service-worker.js": "/getcoolthemes/service-worker.js"
 }
